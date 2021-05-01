@@ -249,13 +249,13 @@ class App extends React.Component {
 
           <ModalFooter>
             <Button
-              color="primary"
+              className="gold-btn d-button"
               onClick={() => this.insertar()}
             >
               Insertar
             </Button>
             <Button
-              className="btn btn-danger"
+              className="pink-btn d-button"
               onClick={() => this.cerrarModalInsertar()}
             >
               Cancelar
